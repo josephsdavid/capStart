@@ -67,3 +67,5 @@ This useually works with raw data
 [Liao(1)](Liao-TwoSteps.pdf): Two step procedure for clustering multivariate time series of equal or unequal or unequal length:
 	1. k-means or fuzzy c-means(FCM) to time stripped data, in order to convert it into a univariate series with discrete values. The times are then added back in to the dataset, making it a time series again. 
 	2. On the converted variable, employ k means or FCM to group the converted time series, expressed essentially as probability matrices into clusters. Euclidean distances are used in step one, where various distance measures are used in step 2
+
+[Liao(2)](LiaoBattle.pdf)
