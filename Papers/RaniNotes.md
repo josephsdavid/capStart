@@ -77,16 +77,30 @@ This useually works with raw data
 
 Niennatrakil showed that dynamic time warping is not a good tool in conjunction with k means, and instead K-mediods should be used.
 
-[Bidari]() created a new approach to cluster time series gene expressions, finding funcitonal patterns of time series ising FCM and k-means clustering. Pearson correlation extracted expression patterns, and henes are clusterd by k means and FCM according to their time series expressions. Them, gene behavior patterns were extracted from their clusters.New features are then defined, and then by calculating correlation between the newly calculated features and found new interconnections between the genes.
+[Bidari] created a new approach to cluster time series gene expressions, finding funcitonal patterns of time series ising FCM and k-means clustering. Pearson correlation extracted expression patterns, and henes are clusterd by k means and FCM according to their time series expressions. Them, gene behavior patterns were extracted from their clusters.New features are then defined, and then by calculating correlation between the newly calculated features and found new interconnections between the genes.
 
-[Kremer]() Split time series into disjoint, equal length intervals and then density based clustering was used, with dynamic time warping, in order to detect the influence of climate change
+[Kremer] Split time series into disjoint, equal length intervals and then density based clustering was used, with dynamic time warping, in order to detect the influence of climate change
 
-[Yin]() proposed an encoded-bitmap-apporach based swap on top of k means to improve classical time series clustering. He used time series of traffic flow data, refining the clusters with the swap trick. The proposed method was shown to perform better on the change trend of time series than simple k means.
+[Yin] proposed an encoded-bitmap-apporach based swap on top of k means to improve classical time series clustering. He used time series of traffic flow data, refining the clusters with the swap trick. The proposed method was shown to perform better on the change trend of time series than simple k means.
 
-[Hautamaki]() defined a proripe as an optimization problem, and proposed a solution to it, using trandom swap and hierarchical clustering follwed by fine tuning with k means, provifing large imporvements over k mediods
+[Hautamaki] defined a proripe as an optimization problem, and proposed a solution to it, using trandom swap and hierarchical clustering follwed by fine tuning with k means, provifing large imporvements over k mediods
 
-[Chandrakala]() proposed a density based method for clustering variabnle lenfth multivariate time series, ising the DBSCAN alforithm with euclidean distance. The proposed method performs very well and handles outliers well.
+[Chandrakala] proposed a density based method for clustering variabnle lenfth multivariate time series, ising the DBSCAN alforithm with euclidean distance. The proposed method performs very well and handles outliers well.
 
-[nie]() analyzed time series using normalized longest common subsequence, which is normally used in comparing text. He developed it with a new algorithm to calculate the similarity of time series It used the sum of all common subsequences instead of the longest common subsequence. The results lead to an improved performance overall
+[nie] analyzed time series using normalized longest common subsequence, which is normally used in comparing text. He developed it with a new algorithm to calculate the similarity of time series It used the sum of all common subsequences instead of the longest common subsequence. The results lead to an improved performance overall
+
+[khan] applied k means to stock data into three groups, sead, slow, and fast, and then applied the most frequent pattern algoiruthm to find frequencies of values of the corresponding item. It showed that this can generate useful patterns from large stock data
+
+[Songpol] Intoduced resampled and hybrid DTW,  as well as Contrast Enhanced Dynamic Time Warping, that reduces the effects of single points.
+
+[WU] propised a data stream clustering method for stocks, with online clustering first, and offline macro clustering. The online clustering extracted data dlow characteristics, while the bulk of the work was done offline. I do not quite understand this
+
+[Zhang] used computational verb clustering in a few steps on stock data, in order to find intra day trends. First round of CVY cateforized the stock market data, and second round was computational verb k means, which refined the trends. This worked really well.
+
+[Wu] introduced an algotihm that used stock information in conjunction with time series subsequences for mining patternse within stock sectors. He used stream sliding windows, a training window and an evaluation window. It detected significant sectors in the training window, and built patterns for the significant ones. It then used the evaluation window to detect whether the ppattern extracted was real or not. The patterns found were not bad at all, better than dbscan.
+
+[Shi] Proposed an unascerained c means clustering which was more robust to noise than fuzzy c means
+
+[Nanda] Found a way t use SOM and FCM to cluster and classify stocks, minimizing portfolio risks
 
 ![](https://i.imgur.com/7cVDBB2.png)
