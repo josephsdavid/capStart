@@ -77,7 +77,7 @@ This useually works with raw data
 
 Niennatrakil showed that dynamic time warping is not a good tool in conjunction with k means, and instead K-mediods should be used.
 
-[Bidari] created a new approach to cluster time series gene expressions, finding funcitonal patterns of time series ising FCM and k-means clustering. Pearson correlation extracted expression patterns, and henes are clusterd by k means and FCM according to their time series expressions. Them, gene behavior patterns were extracted from their clusters.New features are then defined, and then by calculating correlation between the newly calculated features and found new interconnections between the genes.
+[Bidari](BidariGenes.pdf) created a new approach to cluster time series gene expressions, finding funcitonal patterns of time series ising FCM and k-means clustering. Pearson correlation extracted expression patterns, and henes are clusterd by k means and FCM according to their time series expressions. Them, gene behavior patterns were extracted from their clusters.New features are then defined, and then by calculating correlation between the newly calculated features and found new interconnections between the genes.
 
 [Kremer] Split time series into disjoint, equal length intervals and then density based clustering was used, with dynamic time warping, in order to detect the influence of climate change
 
@@ -104,3 +104,5 @@ Niennatrakil showed that dynamic time warping is not a good tool in conjunction 
 [Nanda] Found a way t use SOM and FCM to cluster and classify stocks, minimizing portfolio risks
 
 ![](https://i.imgur.com/7cVDBB2.png)
+
+# Representation based clustering
