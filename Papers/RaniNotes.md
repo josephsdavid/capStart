@@ -68,4 +68,25 @@ This useually works with raw data
 	1. k-means or fuzzy c-means(FCM) to time stripped data, in order to convert it into a univariate series with discrete values. The times are then added back in to the dataset, making it a time series again. 
 	2. On the converted variable, employ k means or FCM to group the converted time series, expressed essentially as probability matrices into clusters. Euclidean distances are used in step one, where various distance measures are used in step 2
 
-[Liao(2)](LiaoBattle.pdf)
+[Liao(2)](LiaoBattle.pdf) Evaluated several clustering algorithhms on multivariate time series, with the objective to form a discrete number of battle states (cool)
+
+[Moller-Level](MollerFuzzyFuzzyShortTime.pdf) Proposes a new distance metric for short time series, using relative change in amplitude, to fuzzy cluster short unevenly sampled time series
+
+[Shumway](ShumwayDiscriminant.pdf) Used locally stationary versions of probability divergence to give statistics for meaasuring the difference between non stationary time series. They were able to distinguish earthquakes from explosion using this methof combined with hierarchical clustering.
+
+
+Niennatrakil showed that dynamic time warping is not a good tool in conjunction with k means, and instead K-mediods should be used.
+
+[Bidari]() created a new approach to cluster time series gene expressions, finding funcitonal patterns of time series ising FCM and k-means clustering. Pearson correlation extracted expression patterns, and henes are clusterd by k means and FCM according to their time series expressions. Them, gene behavior patterns were extracted from their clusters.New features are then defined, and then by calculating correlation between the newly calculated features and found new interconnections between the genes.
+
+[Kremer]() Split time series into disjoint, equal length intervals and then density based clustering was used, with dynamic time warping, in order to detect the influence of climate change
+
+[Yin]() proposed an encoded-bitmap-apporach based swap on top of k means to improve classical time series clustering. He used time series of traffic flow data, refining the clusters with the swap trick. The proposed method was shown to perform better on the change trend of time series than simple k means.
+
+[Hautamaki]() defined a proripe as an optimization problem, and proposed a solution to it, using trandom swap and hierarchical clustering follwed by fine tuning with k means, provifing large imporvements over k mediods
+
+[Chandrakala]() proposed a density based method for clustering variabnle lenfth multivariate time series, ising the DBSCAN alforithm with euclidean distance. The proposed method performs very well and handles outliers well.
+
+[nie]() analyzed time series using normalized longest common subsequence, which is normally used in comparing text. He developed it with a new algorithm to calculate the similarity of time series It used the sum of all common subsequences instead of the longest common subsequence. The results lead to an improved performance overall
+
+![](https://i.imgur.com/7cVDBB2.png)
